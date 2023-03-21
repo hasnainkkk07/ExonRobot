@@ -38,10 +38,10 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "13715737"
-    API_HASH = "9b5ff18e133fed80f0f6cd7bf30cffdd"
-    APP_ID = "13715737"  # 2nd API_ID
-    APP_HASH = "9b5ff18e133fed80f0f6cd7bf30cffdd"  # 2ns API_HASH
+    API_ID = "14056295"
+    API_HASH = "9ae65901d2eeb5854cc5aa562566d34a"
+    APP_ID = "28026706"  # 2nd API_ID
+    APP_HASH = "4de901c8a09c42518a417a48e518ecaf"  # 2ns API_HASH
     ARQ_API_KEY = "HOYQOV-EYTKTC-RLELMG-IPFLVH-ARQ"
     BOT_ID = "5372584050"
     TOKEN = "5372584050:AAFLZtWstTJds_b4qCyNAHaYvbiVKQ_-BG8"
