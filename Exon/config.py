@@ -71,7 +71,7 @@ class Config(object):
     SPAMWATCH_API = ""
     SPAMWATCH_SUPPORT_CHAT = "@AbishnoiMF"
 
-    REDIS_URL = ""
+    REDIS_URL = "redis://sukuna:@Sukuna123@redis-13592.c90.us-east-1-3.ec2.cloud.redislabs.com:13592/sukuna"
 
     DRAGONS = get_user_list("elevated_users.json", "sudos")
     DEV_USERS = get_user_list("elevated_users.json", "devs")
