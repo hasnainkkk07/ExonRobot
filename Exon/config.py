@@ -58,7 +58,7 @@ class Config(object):
 
     SQLALCHEMY_DATABASE_URI = ""
     DB_URL = ""
-    MONGO_DB_URL = ""  # needed for any database modules
+    MONGO_DB_URL = "mongodb+srv://sukuna:fazaljuly2@sukuna.vipbn9a.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     MONGO_URL = ""
     DB_URL2 = ""  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
