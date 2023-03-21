@@ -169,8 +169,8 @@ if ENV:
     STRING_SESSION = os.environ.get(
         "STRING_SESSION"
     )  # Telethon Based String Session (2nd ID) [ From https://repl.it/@SpEcHiDe/GenerateStringSession ]
-    APP_ID = os.environ.get("APP_ID")  # 2nd ID
-    APP_HASH = os.environ.get("APP_HASH")  # 2nd ID
+    API_ID2 = os.environ.get("API_ID2")  # 2nd ID
+    API_HASH2 = os.environ.get("API_HASH2")  # 2nd ID
     UPDATES_CHANNEL = os.environ.get(
         "UPDATES_CHANNEL", None
     )  # Updates channel for bot (Use @AbishnoiMF instead of t.me//example)
@@ -364,7 +364,7 @@ aiohttpsession = ClientSession()
 print("[INFO]: ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ᴀʀǫ ᴄʟɪᴇɴᴛ")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • PostgreSQL ᴅᴀᴛᴀʙᴀsᴇ")
-ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID2, APP_HASH2)
+ubot = TelegramClient(StringSession(STRING_SESSION), API_ID2, API_HASH2)
 print("[INFO]: PYROGRAM CLIENT INITIALIZED")
 print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • ᴜsᴇʀʙᴏᴛ (t.me/AbishnoiMF)")
 timeout = httpx.Timeout(40)
