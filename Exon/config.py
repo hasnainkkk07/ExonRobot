@@ -113,7 +113,7 @@ class Config(object):
     TIME_API_KEY = "65G8ZKE6050P"
     INFOPIC = False
     GENIUS_API_TOKEN = "p1r3mTfeLP9-NkFGA1EVkPKgVyj9v0LvWIkx4v8SPT34hNjAum3q3ASM78HtnfoK"
-
+    STRING_SESSION = ""
 
 class Production(Config):
     LOGGER = True
