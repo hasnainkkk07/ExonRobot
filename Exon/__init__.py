@@ -271,8 +271,8 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     REM_BG_API_KEY = Config.REM_BG_API_KEY
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
-    APP_ID = Config.APP_ID
-    APP_HASH2 = Config.APP_HASH
+    API_ID2 = Config.APP_ID
+    API_HASH2 = Config.APP_HASH
     STRING_SESSION = Config.STRING_SESSION
     GENIUS_API_TOKEN = Config.GENIUS_API_TOKEN
     # YOUTUBE_API_KEY = Config.YOUTUBE_API_KEY
@@ -364,7 +364,7 @@ aiohttpsession = ClientSession()
 print("[INFO]: ɪɴɪᴛɪᴀʟɪᴢɪɴɢ ᴀʀǫ ᴄʟɪᴇɴᴛ")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
 print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • PostgreSQL ᴅᴀᴛᴀʙᴀsᴇ")
-ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID, APP_HASH)
+ubot = TelegramClient(StringSession(STRING_SESSION), APP_ID2, APP_HASH2)
 print("[INFO]: PYROGRAM CLIENT INITIALIZED")
 print("[ᴇxᴏɴ]: ᴄᴏɴɴᴇᴄᴛɪɴɢ ᴛᴏ ᴇxᴏɴ • ᴜsᴇʀʙᴏᴛ (t.me/AbishnoiMF)")
 timeout = httpx.Timeout(40)
