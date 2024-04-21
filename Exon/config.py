@@ -38,27 +38,27 @@ def get_user_list(config, key):
 class Config(object):
     LOGGER = True
 
-    API_ID = "14056295"
-    API_HASH = "9ae65901d2eeb5854cc5aa562566d34a"
+    API_ID = "24683098"
+    API_HASH = "e4055cd239464e50e69bd73057c05dd3"
     API_ID2 = "28026706"  # 2nd API_ID
     API_HASH2 = "4de901c8a09c42518a417a48e518ecaf"  # 2ns API_HASH
     ARQ_API_KEY = "HOYQOV-EYTKTC-RLELMG-IPFLVH-ARQ"
-    BOT_ID = "6270655198"
-    TOKEN = ""
-    OWNER_ID = "1805959544"
+    BOT_ID = "7086276143"
+    TOKEN = "7086276143:AAGkXOZh4VA_juwy_ZZ88u5mFGr2eYwqPp8"
+    OWNER_ID = "6346273488"
     OPENWEATHERMAP_ID = "ca1f9caacbb92187db96c0bf5686017b"
-    OWNER_USERNAME = "Fazal000001"
-    BOT_USERNAME = "Tele_proXbot"
-    SUPPORT_CHAT = "Lux_bot_support"
-    UPDATES_CHANNEL = "sukunaXupdate"
-    SUPPORT_CHANNEL = "sukunaXupdate"
-    JOIN_LOGGER = "-1001884764127"
-    EVENT_LOGS = "-1001884764127"
-    ERROR_LOGS = "-1001757265875"
+    OWNER_USERNAME = "hasnainkk"
+    BOT_USERNAME = "Copyright_SaferBot"
+    SUPPORT_CHAT = "RAIDEN_SUPPORT"
+    UPDATES_CHANNEL = "RAIDEN_SUPPORT"
+    SUPPORT_CHANNEL = "RAIDEN_SUPPORT"
+    JOIN_LOGGER = "-1002105665930"
+    EVENT_LOGS = "-1002105665930"
+    ERROR_LOGS = "-1002105665930"
 
-    SQLALCHEMY_DATABASE_URI = ""
-    DB_URL = ""
-    MONGO_DB_URL = "mongodb+srv://sukuna:fazaljuly2@sukuna.vipbn9a.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://minbvitg:nrPTb_76F2se0axmPIens8QMMQ0Jyxjv@dumbo.db.elephantsql.com/minbvitg"
+    DB_URL = "postgres://minbvitg:nrPTb_76F2se0axmPIens8QMMQ0Jyxjv@dumbo.db.elephantsql.com/minbvitg"
+    MONGO_DB_URL = "mongodb+srv://herobh123456:hasnainkk07@hasnainkk07.uqjekii.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     MONGO_URL = ""
     DB_URL2 = ""  # YOUR MONGO_DB_URI
     ARQ_API_URL = "https://arq.hamker.in"
@@ -81,7 +81,7 @@ class Config(object):
     TIGERS = get_user_list("elevated_users.json", "tigers")
     WOLVES = get_user_list("elevated_users.json", "whitelists")
 
-    DONATION_LINK = "https://t.me/Abishnoi1M"
+    DONATION_LINK = "https://t.me/hasnainkk"
     CERT_PATH = None
     STRICT_GBAN = "True"
     PORT = ""
